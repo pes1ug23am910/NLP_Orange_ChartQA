@@ -20,7 +20,7 @@ pipeline_tag: image-text-to-text
 > **Orange Problem Lab** — Multimodal Fine-Tuning with Small Language Models
 
 [![HuggingFace](https://img.shields.io/badge/🤗%20Model-HuggingFace-yellow)](https://huggingface.co/Yash1608/qwen2vl-2b-chartqa-merged)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yash1608/chartqa-finetune/blob/main/multimodal_finetune_chartqa.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pes1ug23am910/NLP_Orange_ChartQA/blob/main/multimodal_finetune_chartqa_Collab_v2_Final.ipynb)
 [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com)
 
 ---
@@ -57,10 +57,10 @@ Output: "47.3"
 
 ```
 .
-├── multimodal_finetune_chartqa.ipynb   # Main notebook (training + eval + inference)
-├── inference.py                        # Standalone inference & batch-eval script
-├── push_to_hub.py                      # Helper: push adapters + merged model to HF Hub
-├── requirements.txt                    # Pinned dependencies
+├── multimodal_finetune_chartqa_Collab_v2_Final.ipynb   # Main notebook (training + eval + inference)
+├── inference.py                                        # Standalone inference & batch-eval script
+├── push_to_hub.py                                      # Helper: push adapters + merged model to HF Hub
+├── requirements.txt                                    # Pinned dependencies
 └── README.md
 ```
 
@@ -176,15 +176,15 @@ ChartQA is scored with **relaxed accuracy**: a prediction is correct if it match
 
 | Split | Relaxed Accuracy |
 |---|---|
-| Validation (500 samples) | **~XX%** ← fill in after training |
+| Validation (300 samples) | **~XX%** ← fill in after training |
 | Test | **~XX%** |
 
 ---
 
 ## Reproducing
 
-1. Clone the repo: `git clone https://github.com/Yash1608/chartqa-finetune`
-2. Open `multimodal_finetune_chartqa.ipynb` in Kaggle or Google Colab (T4 runtime)
+1. Clone the repo: `git clone https://github.com/pes1ug23am910/NLP_Orange_ChartQA`
+2. Open `multimodal_finetune_chartqa_Collab_v2_Final.ipynb` in Kaggle or Google Colab (T4 runtime)
 3. Set your `HF_TOKEN` as a secret
 4. Update `CFG["hf_repo_id"]` with your HuggingFace username
 5. Run all cells top to bottom
