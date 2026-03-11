@@ -1,0 +1,54 @@
+# Internal / workspace files
+copilot-instructions.md
+Old/
+
+# Old notebook drafts
+multimodal_finetune_chartqa_Collab_v1*.ipynb
+"multimodal_finetune_chartqa_Collab_v1_(1) (2).ipynb"
+multimodal_finetune_chartqa.ipynb
+
+# Checkpoints & model weights
+qwen2vl-chartqa-lora/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Kaggle / Colab artefacts
+*.kaggle
+kaggle.json
+
+# Wandb
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache (don't commit downloaded model weights)
+~/.cache/huggingface/
+
+# W&B run artefacts
+wandb/
+
+# Old / archived files
+Old/
