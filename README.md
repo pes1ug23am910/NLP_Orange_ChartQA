@@ -17,7 +17,8 @@ pipeline_tag: image-text-to-text
 
 # Multimodal SLM Fine-Tuning: Qwen2-VL-2B on ChartQA
 
-> **Orange Problem Lab** — Multimodal Fine-Tuning with Small Language Models
+> **Orange Problem Lab** — Multimodal Fine-Tuning with Small Language Models  
+> **Team:** Lost in Translation &nbsp;|&nbsp; **Author:** Yash Verma (PES1UG23AM910)
 
 [![HuggingFace](https://img.shields.io/badge/🤗%20Model-HuggingFace-yellow)](https://huggingface.co/Yash1608/qwen2vl-2b-chartqa-merged)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pes1ug23am910/NLP_Orange_ChartQA/blob/main/multimodal_finetune_chartqa_Collab_v2_Final.ipynb)
@@ -231,6 +232,17 @@ model, processor = load_merged_model("Yash1608/qwen2vl-2b-chartqa-merged")
 acc = relaxed_accuracy(model, processor, split="test", n_samples=500)
 print(f"Relaxed Accuracy: {acc:.4f}")
 ```
+
+---
+
+## Authors
+
+| Field | Detail |
+|---|---|
+| **Name** | Yash Verma |
+| **USN** | PES1UG23AM910 |
+| **Team** | Lost in Translation |
+| **Lab** | Orange Problem — Multimodal SLM Fine-Tuning |
 
 ---
 
