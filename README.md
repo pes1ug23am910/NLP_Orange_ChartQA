@@ -176,8 +176,8 @@ ChartQA is scored with **relaxed accuracy**: a prediction is correct if it match
 
 | Split | Relaxed Accuracy |
 |---|---|
-| Validation (300 samples) | **~XX%** ← fill in after training |
-| Test | **~XX%** |
+| Validation (200 samples) | **34.50%** (69/200) |
+| Test | — |
 
 ---
 
